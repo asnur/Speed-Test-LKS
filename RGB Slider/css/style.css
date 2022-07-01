@@ -1,0 +1,18 @@
+#rgb-slider {
+  width: 300px;
+  height: 300px;
+  background: rgb(100, 150, 200);
+  display: flex;
+  align-items: center;
+}
+
+#color-detail {
+  text-align: center;
+  width: 100%;
+}
+
+#colorpick1,
+#colorpick2,
+#colorpick3 {
+  width: 300px;
+}

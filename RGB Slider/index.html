@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGB Slider</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="rgb-slider">
+      <h2 id="color-detail">
+        rgb(<span id="color1">100</span>,<span id="color2">150</span>,<span
+          id="color3"
+          >200</span
+        >)
+      </h2>
+    </div>
+    <br />
+    <input type="range" min="0" max="255" id="colorpick1" value="100" /><br />
+    <input type="range" min="0" max="255" id="colorpick2" value="150" /><br />
+    <input type="range" min="0" max="255" id="colorpick3" value="200" />
+    <script src="js/rgb-slider.js"></script>
+  </body>
+</html>

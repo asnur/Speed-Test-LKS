@@ -1,0 +1,75 @@
+.top {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 60% 13.3% 13.3% 13.3%;
+}
+
+.top > div {
+  padding: 20px;
+}
+
+.top > div:nth-child(1) {
+  background-color: yellow;
+}
+
+.top > div:not(:first-child) {
+  background-color: salmon;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.main .left > div:first-child {
+  background-color: skyblue;
+  padding: 20px;
+}
+
+.main .left > div:nth-child(2) > div:first-child {
+  background-color: aquamarine;
+  height: 40vh;
+}
+
+.main .left > div:nth-child(2) > div:nth-child(2) > * {
+  height: 20vh;
+}
+
+.main .left > div:nth-child(2) > div:nth-child(2) > div:first-child {
+  background-color: gray;
+}
+
+.main .left > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) {
+  background-color: yellow;
+}
+
+.main .left > div:nth-child(2) {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.main .right {
+  background-color: lightblue;
+}
+
+.main .right > div {
+  height: 15.8vh;
+}
+
+.main .right > div:first-child {
+  background-color: orange;
+}
+
+.main .right > div:nth-child(2) {
+  background-color: green;
+}
+
+.main .right > div:nth-child(3) {
+  background-color: palevioletred;
+}
+
+.footer {
+  width: 100%;
+  padding: 20px;
+  background-color: lightgray;
+}
